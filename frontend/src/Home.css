@@ -1,0 +1,53 @@
+/* import background from './images/background .webp'; */
+
+.background-image {
+  background: url('./images/background .webp');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 6%;
+  position: relative;
+}
+.background-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-80%);
+}
+.background-content h1 {
+  color: #cf5911;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.background-content p {
+  font-size: 1rem;
+  color: #249670;
+  margin-bottom: 40px;
+}
+
+.background-content a {
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.icon a {
+  color: white;
+  background: orange;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+footer {
+  background-color: #249670;
+  min-height: 100px;
+}
+footer h2 {
+  text-align: center;
+  padding: 10px 10px;
+}
